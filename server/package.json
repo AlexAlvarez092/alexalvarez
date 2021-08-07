@@ -4,7 +4,8 @@
   "description": "alexalvarez.es website - server",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "pm2 start index.js --time"
   },
   "author": "Alex Alvarez",
   "license": "UNLICENSED",
